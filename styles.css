@@ -315,17 +315,26 @@ body {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     overflow: hidden;
     padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 @media (min-width: 576px) {
     .hero {
         padding-top: 90px;
+        padding-bottom: 30px;
     }
 }
 
 @media (min-width: 768px) {
     .hero {
         padding-top: 100px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero {
+        padding-bottom: 0;
     }
 }
 
@@ -469,6 +478,7 @@ body {
     animation: fadeIn 1s ease 0.9s forwards;
     width: 100%;
     max-width: 300px;
+    margin-bottom: 40px;
 }
 
 @media (min-width: 576px) {
@@ -477,6 +487,19 @@ body {
         gap: 20px;
         width: auto;
         max-width: none;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-buttons {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero-buttons {
+        margin-bottom: 0;
     }
 }
 
