@@ -383,6 +383,26 @@ body {
     }
 }
 
+/* Mobile-first: Text comes first, then image */
+.hero-text {
+    order: 1;
+}
+
+.hero-image {
+    order: 2;
+}
+
+/* Desktop: Image on right, text on left */
+@media (min-width: 992px) {
+    .hero-text {
+        order: 1;
+    }
+    
+    .hero-image {
+        order: 2;
+    }
+}
+
 .hero-title {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
