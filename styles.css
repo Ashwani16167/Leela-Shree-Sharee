@@ -383,16 +383,16 @@ body {
     }
 }
 
-/* Mobile-first: Text comes first, then image */
+/* Mobile-first: Images come first, then text */
 .hero-text {
-    order: 1;
-}
-
-.hero-image {
     order: 2;
 }
 
-/* Desktop: Image on right, text on left */
+.hero-image {
+    order: 1;
+}
+
+/* Desktop: Text on left, image on right */
 @media (min-width: 992px) {
     .hero-text {
         order: 1;
